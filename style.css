@@ -1,0 +1,52 @@
+body{
+    background-color: #b80056;
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+.container {
+    margin: auto 25%;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: center;
+}
+.btn {
+    width: 150px;
+    border-radius:3px;
+    border:1px solid #0b0e07;
+    background-color:#002841;
+    color: #FFF;
+    padding:9px 23px;
+    margin: 15px;
+    cursor: pointer;
+    display: flex;
+}
+
+.btn.get-gradient {
+    background: linear-gradient(180deg, rgb(140, 25, 255) 0%, rgba(9,9,121,1) 35%, rgb(114, 0, 85) 100%);
+}
+
+.code-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#color-code-display {
+    width: 400px;
+    margin: 15px;
+}
+
+i.fa-copy {
+    cursor: pointer;
+    width: 50px;
+    margin: 15px 0px;
+}
+
+i.fa-copy:hover {
+    color: rgb(255, 159, 212);
+    transform: scale(1.1);
+}
